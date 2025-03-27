@@ -16,5 +16,6 @@ RUN set -e \
         && update-locale LANG=zh_CN.UTF-8
 
 ENV SHELL=/usr/bin/bash
-# kasmvnc autostart and menu
-#COPY ./root /
+
+#copy /defaults
+COPY ./root /
